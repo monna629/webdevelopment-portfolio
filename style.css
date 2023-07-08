@@ -140,6 +140,9 @@ background-color: #5cdb95bb;
     margin: auto;
     /* color: #5CDB95; */
 }
+main section{
+    margin-top: 130px;
+}
 .about-info-container{
     display: flex;
     justify-content: space-around;
@@ -159,4 +162,21 @@ background-color: #5cdb95bb;
 }
 #what-i-do-description{
     padding: 30px 150px;
+}
+/* skills realated style */
+.skill-container{
+    display: flex;
+    /* width: 267px;
+    height: 377px; */
+    /* margin-right: 20px; */
+    gap: 24px;
+}
+.skill{
+    padding: 30px;
+    
+    color: #05386bc9;
+    /* border: 1px solid #5cdb95; */
+    border-radius: 5px;
+background: #71dba18c;
+box-shadow: 0px 6px 50px 0px rgb(154, 219, 201);
 }

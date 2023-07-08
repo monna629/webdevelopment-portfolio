@@ -48,6 +48,8 @@ nav a{
 .banner{
     color: #05386b;
     padding:100px 30px 100px 150px;
+    display: flex;
+    align-items: center;
 }
 /* .icon{
     width: 24px;
@@ -62,3 +64,6 @@ nav a{
     font-size: 16px;
     cursor: pointer;
 } */
+ .banner .myimage{
+    width: 500px;
+}

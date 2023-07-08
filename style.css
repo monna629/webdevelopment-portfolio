@@ -138,6 +138,7 @@ background-color: #5cdb95bb;
     /* max-height: 550px; */
     /* justify-content: center; */
     margin: auto;
+    /* color: #5CDB95; */
 }
 .about-info-container{
     display: flex;
@@ -155,4 +156,7 @@ background-color: #5cdb95bb;
 .info-description{
     font-weight: bolder;
     font-size: 15px;
+}
+#what-i-do-description{
+    padding: 30px 150px;
 }

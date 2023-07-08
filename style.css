@@ -3,6 +3,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 150px;
+    padding-top: 10px;
+   
     
 }
 nav > ul {
@@ -14,7 +17,7 @@ nav li{
 }
 *{
     font-family: 'Open Sans', sans-serif;
-    margin: 2px;
+    margin: 0px;
 }
 .insidespan{
     color: #05386b ;
@@ -32,8 +35,30 @@ nav a{
     font-size: 20px;
     font-weight: 700;
     padding: 10px 25px;
+    /* padding-top: 15px; */
 }
 /* common shared styles */
-*{
+/* *{
     background-color: #5cdb95;
+} */
+.head{
+    background-color: #5CDB95;
 }
+/* inside banner  */
+.banner{
+    color: #05386b;
+    padding:100px 30px 100px 150px;
+}
+/* .icon{
+    width: 24px;
+    height: 24px;
+    padding: 20px 160px 20px 18px;
+} */
+/* .btn{
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+} */

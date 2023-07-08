@@ -1,0 +1,39 @@
+/* nav related styles */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+nav > ul {
+    list-style: none;
+}
+nav li{
+    display: inline;
+    margin-right: 50px;
+}
+*{
+    font-family: 'Open Sans', sans-serif;
+    margin: 2px;
+}
+.insidespan{
+    color: #05386b ;
+   
+}
+
+nav a{
+    text-decoration: none;
+    color: #05386b;
+}
+.btn-primary{
+    color:aliceblue; background-color: #05386b ;
+    border-radius: 5px;
+    border:0px ;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 25px;
+}
+/* common shared styles */
+*{
+    background-color: #5cdb95;
+}

@@ -34,7 +34,7 @@ nav a{
     border:0px ;
     font-size: 20px;
     font-weight: 700;
-    padding: 10px 25px;
+    padding: 20px 25px;
     /* padding-top: 15px; */
 }
 /* common shared styles */
@@ -43,6 +43,9 @@ nav a{
 } */
 .head{
     background-color: #5CDB95;
+    background-image: url('./images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right ;
 }
 /* inside banner  */
 .banner{
@@ -66,4 +69,14 @@ nav a{
 } */
  .banner .myimage{
     width: 500px;
+    padding-left: 500px;
+}
+.banner-greeting{
+    font-size: 35px;
+font-style: normal;
+font-weight: 600;
+}
+.banner-title{
+ font-size: 75px;
+ font-weight: 700
 }

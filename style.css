@@ -36,6 +36,14 @@ nav a{
     font-weight: 700;
     padding: 10px 15px;
     /* padding-top: 15px; */
+    box-shadow: 4px 4px 30px 0px #5CDB95;
+}
+.btn-cv{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 60px;
+   
+    
 }
 /* common shared styles */
 /* *{
@@ -108,6 +116,7 @@ text-align: center;
 
 font-size: 35px;
 font-style: normal;
+padding-bottom: 30px;
 /* font-weight: 700;border: 3px solid #05386b ; */
 /* background-color: #5CDB95;
 padding-block-end: 5px; */
@@ -180,3 +189,32 @@ main section{
 background: #71dba18c;
 box-shadow: 0px 6px 50px 0px rgb(154, 219, 201);
 }
+.resume-column-title{
+    font-size: 30px;
+font-style: normal;
+font-weight: 700;
+color: #083f77b6;
+}
+.resume-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border: 10px;
+    box-shadow:0px 6px 50px 0px #063e77c2;
+    background-color: #5cdb9545;
+    color: #05386b;
+    gap: 40px;
+}
+.resume-column{
+    padding:  20px;}
+    .resume-para{
+        padding-top: 5px;
+        padding-bottom: 10px;
+        border-bottom:1px solid #05386b;
+        margin: 5px;
+    }
+    .h5resume{
+        font-weight: 400px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }

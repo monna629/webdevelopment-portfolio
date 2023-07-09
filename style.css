@@ -45,6 +45,9 @@ nav a{
    
     
 }
+*{
+    margin: 0px;
+}
 /* common shared styles */
 /* *{
     background-color: #5cdb95;
@@ -52,7 +55,7 @@ nav a{
 .header{
     background-color: #5CDB95;
    
-    width: fit-content;
+    width: 100%;
     /* border: 4px solid #05386b;
     border-radius: 5px; */
     
@@ -62,9 +65,10 @@ nav a{
 /* inside banner  */
 .banner{
     color: #05386b;
-    padding:30px 30px 0div-textpx 150px;
+    padding:30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 /* .icon{
     width: 24px;
@@ -84,7 +88,7 @@ nav a{
     background-repeat: no-repeat;
     background-position: center right;
     width: 400px;
-    padding-left: 400px; 
+    padding-left: 500px; 
  /* padding-bottom: 100px; */
    
 }

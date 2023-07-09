@@ -229,8 +229,22 @@ color: #083f77b6;
         padding-top: 130px;
     }
     .image-div{
-        padding-top: 20px;
-        align-items: center;
-        padding-right: 10px;
-        gap: 10px;
+       gap: 20px;
+       padding-top: 10px;
+       padding-left: 20px;
+       display: inline-block;
+    }
+    .formal input ,textarea{
+        display: block;
+        padding: 10px 30px;
+        margin-bottom: 24px;
+        color: #05386b;
+        border-radius: 7px;
+        background-color: #b7e6cc;
+    }
+    .footer{
+        border-bottom:1px solid #05386b;
+    }
+    .image-div2 ,a{
+     margin: 24px;
     }

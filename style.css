@@ -218,3 +218,19 @@ color: #083f77b6;
         padding-top: 8px;
         padding-bottom: 8px;
     }
+    /* fotter starts */
+    /* .footer-column{
+        display: flex;
+    } */
+    footer{
+        display: flex;
+        justify-content: space-around;
+        background-color: #59ce8eaf;
+        padding-top: 130px;
+    }
+    .image-div{
+        padding-top: 20px;
+        align-items: center;
+        padding-right: 10px;
+        gap: 10px;
+    }

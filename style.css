@@ -56,8 +56,10 @@ nav a{
     background-color: #5CDB95;
    
     width: 100%;
-    /* border: 4px solid #05386b;
-    border-radius: 5px; */
+    /* max-width: 100vh;  */
+    /* max-height: 100vh;
+    /* border: 4px solid #05386b; */
+    border-radius: 5px; 
     
     /* position: center; */
    
@@ -261,4 +263,8 @@ color: #083f77b6;
     }
     .image-div2 ,a{
      margin: 24px;
+    }
+    @media screen and (max-width:768px){
+   
+    
     }
